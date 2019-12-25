@@ -7,7 +7,7 @@ laravel-admin extension
 
 2.发布本资源扩展包的静态资源：
 
-    php artisan vendor:publish php artisan vendor:publish php artisan vendor:publish --provider=Encore\PHPInfo\PHPInfoServiceProvider
+    php artisan vendor:publish --provider=Encore\CosJsUpload\CosJsUploadServiceProvider
 
 3.注册进laravel-admin,在app/Admin/bootstrap.php中添加以下代码：
 
