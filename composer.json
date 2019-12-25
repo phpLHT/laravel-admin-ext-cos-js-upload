@@ -1,0 +1,33 @@
+{
+    "name": "laravel-admin-ext/cos-js-upload",
+    "description": "简单的大文件分片直传腾讯云cos",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/laravel-admin-ext/cos-js-upload",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "li.hongtu",
+            "email": "892330847@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\CosJsUpload\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\CosJsUpload\\CosJsUploadServiceProvider"
+            ]
+        }
+    }
+}
