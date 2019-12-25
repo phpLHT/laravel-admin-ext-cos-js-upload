@@ -1,9 +1,9 @@
 {
-    "name": "laravel-admin-ext/cos-js-upload",
+    "name": "phpLHT/laravel-admin-ext-cos-js-upload",
     "description": "简单的大文件分片直传腾讯云cos",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/laravel-admin-ext/cos-js-upload",
+    "homepage": "https://github.com/phpLHT/laravel-admin-ext-cos-js-upload",
     "license": "MIT",
     "authors": [
         {
